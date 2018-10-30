@@ -1,0 +1,21 @@
+html{font-size: 10px;}
+body{font-size: 14px;margin: 0px;padding: 0px;font-family:arial;font:arial;font-weight: 500;
+background: url(../img/5d7098c91daa6d62db749c82d8334dfd.jpg) 10rem 0;}
+ul,li,p{margin: 0px;padding: 0px;text-decoration: none;list-style: none;}
+li{overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+a:link{}
+a:hover{text-decoration:none;}
+.logo_login{height: 150px;position: relative;top: 0;}
+.Panda_h1{color:gray;font-size: 3rem;}
+.admin{position:absolute;top: 15%;right: 20%;}
+.admin_ul{
+	height: 40rem;
+	width: 35rem;
+	background: white;
+	border-radius: 0.5rem;
+	box-shadow:inset 0 0 1rem #97a9b7;
+}
+.admin_ul li{color: #999999;width: 80%;margin-left: auto;margin-right: auto;}
+.admin_ul h3{padding-top: 3rem;}
+.btn1{width: 10rem;height: 3rem;}
+#false{color: red;margin-bottom: 20px;}

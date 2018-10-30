@@ -1,0 +1,72 @@
+body{font-size: 13px;margin: 0px;padding: 0px;font-family: "宋体";font: "宋体";background: #fcfcfc;}
+ul,li,p{margin: 0px;padding: 0px;text-decoration: none;list-style: none;}
+input{outline: none;}
+select{outline: none;}
+a:link,a:visited{text-decoration: none;font-size: 13px;color: black;}
+a:hover{color:#f3ce1b;}
+.fl{float: left;}
+.fr{float: right;}
+.header{height: 80px;border-top: 1px solid #e1e1e1;background: white;}
+.backchange{height: 3px;background: linear-gradient(0deg,#f7f7f7,#e1e1e1);}
+.logo{max-width: 1200px;height: 80px;margin: 0 auto;margin-top: 15px;line-height: 20px;position: relative;}
+.logo_login{height: 90px;position: relative;top: -20px;}
+.li2 a{margin-left: 20px;color:#46B8DA;}
+.li1{float: right;margin-left: 20px;}
+.li1 a{color:#46B8DA;}
+.li2 a:link,.li2 a:visited{}
+.li2 a:hover{color: #f3ce1b;}
+.li1 a:link,.li1 a:visited{}
+.li1 a:hover{color: #f3ce1b;}
+/*中间部分*/
+.center{width:1000px;margin: 0 auto;margin-top: 50px;}
+.left{margin-top: 20px;float: left;margin-left: 10px;}
+.panda_admin_jpg{height: 400px;}
+.right,.right2{position: relative;float: right;background: white;width: 400px;min-height: 410px;margin-top: 25px;margin-right: 10px;}
+.right ul,.right2 ul{width: 330px;margin: 0 auto;margin-top: 50px;}
+.right ul li,.right2 ul li{width: 330px;float: left;color: gray;}
+.right ul li a{color: gray;}
+.right form ul li:nth-of-type(1) font{font-weight: 550;font-size: 14px;float: left;color: gray;}
+.right ul li:nth-of-type(1) a:link,.right ul li:nth-of-type(1) a:visited{float: right;color: #46B8DA;}
+.right ul li:nth-of-type(1) a:hover{color:#f3ce1b;}
+.input1,.input2{height: 50px;width: 278px;margin-top: 10px;padding-left: 50px;color: gray;font-size: 14px;border:1px solid #CCCCCC;}
+.input1{background: url(../img/userHead.png) no-repeat 15px 13px;}
+.input2{background: url(../img/lock.png) no-repeat 13px 9px;}
+.right ul li:nth-of-type(4){margin-top: 13px;margin-bottom: 15px;}
+.right ul li:nth-of-type(4) a{float: right;}
+.checkbox1{background:url(../img/20180903132422.png) no-repeat;background-size:12px;}
+.checkbox1{float: left;height: 12px;width: 12px;margin-right: 3px;cursor: pointer;border:1px solid #ff875a;}
+#admin{width: 100px;text-align: center;display: block;color: white;border-radius: 5px;font-size: 19px;background: #ff3c3c;padding: 15px 115px;}
+.morehezuo{margin-top: 10px;margin-bottom: 15px;}
+.otherweb a{display: block;float: left;width:35px;height: 35px;margin-right: 20px;}
+.otherweb a img{width:35px;height: 35px;}
+#webspan{padding-right: 17px;line-height: 40px;background: url(../img/loadMore.png) no-repeat 80px 0px;background-size: 15px;cursor: pointer;}
+.moreweb img{margin-right: 10px;width: 92px;height: 20px;margin-top: 8px;}
+.moreweb{margin-left: 5px;}
+#false{color: red;margin-bottom: 10px;margin-top:-5px;}
+/*最后*/
+#finally{position: absolute;right: 350px;bottom: -60px;}
+#finally li{width: 400px;font-weight: 500;}
+#finally font{float: left;}
+#finally a{float: left;color: gray;}
+#finally a:link,#finally a:visited{}
+#finally a:hover{color: #FF8400;}
+#finally li:first-child{margin-left: 50px;margin-bottom: 10px;}
+#finally2{position: absolute;right: 350px;bottom: -60px;}
+#finally2 li{width: 400px;font-weight: 500;}
+#finally2 font{float: left;}
+#finally2 a{float: left;color: gray;}
+#finally2 a:link,#finally2 a:visited{}
+#finally2 a:hover{color: #FF8400;}
+#finally2 li:first-child{margin-left: 50px;margin-bottom: 10px;}
+#qingwu{margin-left: 20px;color: red;}
+.erweima{position:absolute; bottom: 0px;right: 0px;width: 62px;height: 62px;
+background:url(../img/codeSwich.png) no-repeat -88px 0;cursor: pointer;}
+.erweima:link,.erweima:visited{}
+.erweima:hover{background:url(../img/codeSwich.png) no-repeat -88px -88px;}
+.ewm{text-align: center;margin-top: 50px;}
+.computer{position:absolute; bottom: 0px;right: 0px;width: 62px;height: 62px;
+background:url(../img/codeSwich.png) no-repeat 0 0;cursor: pointer;}
+.computer:link,.computer:visited{}
+.computer:hover{background:url(../img/codeSwich.png) no-repeat 0 -88px;}
+.em{position: absolute;right: 18px;bottom: 19px; width: 0; height: 0;border: 43px solid transparent;-webkit-transform: rotate(46deg);cursor: default;z-index: 1;}
+#webspan,.moreweb{position: relative;z-index: 5;}
